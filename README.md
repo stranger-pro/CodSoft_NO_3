@@ -118,9 +118,9 @@ GET http://localhost:5000/api/health
 
 | Method | Endpoint | Auth | Role |
 |---|---|---|---|
-| POST | `/api/auth/register` | ❌ | — |
-| POST | `/api/auth/login` | ❌ | — |
-| POST | `/api/auth/logout` | ❌ | — |
+| POST | `/api/auth/register` | ✅ | Any |
+| POST | `/api/auth/login` | ✅ | Any |
+| POST | `/api/auth/logout` | ✅ | Any |
 | GET | `/api/auth/me` | ✅ | Any |
 
 ### QUIZ
